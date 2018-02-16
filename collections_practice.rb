@@ -8,6 +8,7 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  arr
-
+  array.find do |e|
+    e.include? "a"
+  end
 end
