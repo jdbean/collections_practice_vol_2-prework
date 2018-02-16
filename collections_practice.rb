@@ -18,3 +18,9 @@ def first_wa(array)
     "#{e[0]}#{e[1]}" == "wa"
   end
 end
+
+def remove_non_strings
+  array.delete_if do |e|
+    !(e.is_a? string)
+  end
+end
