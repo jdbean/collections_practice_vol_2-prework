@@ -3,6 +3,6 @@ def begins_with_r(array)
       if e[0] != "r"
         return false
       end
-      return true
     end
+    return true
 end
