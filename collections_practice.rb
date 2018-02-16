@@ -15,6 +15,6 @@ end
 
 def first_wa(array)
   array.find do |e|
-    e[0]e[1] == "wa"
+    "#{e[0]}#{e[1]}" == "wa"
   end
 end
