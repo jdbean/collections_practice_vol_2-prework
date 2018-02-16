@@ -23,5 +23,8 @@ def remove_non_strings(array)
 end
 
 def count_elements
-
+  h = Hash.new(0)
+  a.each do |e|
+    
+    
 end
