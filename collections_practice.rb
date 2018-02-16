@@ -12,3 +12,9 @@ def contain_a(array)
     e.include? "a"
   end
 end
+
+def first_wa(array)
+  array.find do |e|
+    e.[0]e.[1] == "wa"
+  end
+end
