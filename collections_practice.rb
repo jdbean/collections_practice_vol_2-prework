@@ -19,7 +19,7 @@ def first_wa(array)
   end
 end
 
-def remove_non_strings
+def remove_non_strings(array)
   array.delete_if do |e|
     !(e.is_a? string)
   end
