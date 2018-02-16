@@ -1,10 +1,7 @@
 def begins_with_r(array)
-  array.each do |e|
-    if e[0] != "r"
-      return false
-    end
+  array.any do |e|
+    e[0] == "r"
   end
-  return true
 end
 
 def contain_a(array)
@@ -23,4 +20,8 @@ def remove_non_strings(array)
   array.delete_if do |e|
     !(e.is_a? String)
   end
+end
+
+def count_elements
+
 end
